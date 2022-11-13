@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct DogBreedOSApp: App {
+    @StateObject private var manager = Manager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
+                .environmentObject(Manager())
         }
     }
 }

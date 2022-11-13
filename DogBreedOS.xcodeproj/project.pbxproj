@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F676BEF1292146230071D21F /* BreedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F676BEF0292146230071D21F /* BreedData.swift */; };
+		F676BEF3292151B50071D21F /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F676BEF2292151B50071D21F /* CustomErrors.swift */; };
 		F68CA376291D6BEA00696F9C /* DogBreedOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA375291D6BEA00696F9C /* DogBreedOSApp.swift */; };
-		F68CA378291D6BEA00696F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA377291D6BEA00696F9C /* ContentView.swift */; };
+		F68CA378291D6BEA00696F9C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA377291D6BEA00696F9C /* WelcomeView.swift */; };
 		F68CA37A291D6BEF00696F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68CA379291D6BEF00696F9C /* Assets.xcassets */; };
 		F68CA37D291D6BEF00696F9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68CA37C291D6BEF00696F9C /* Preview Assets.xcassets */; };
+		F68CA388291D6EE500696F9C /* DogBreedClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F68CA387291D6EE500696F9C /* DogBreedClassifier.mlmodel */; };
+		F68CA38E291D765800696F9C /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA38D291D765800696F9C /* Style.swift */; };
+		F68CA390291D768500696F9C /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA38F291D768500696F9C /* Modifiers.swift */; };
+		F68CA397291D96E000696F9C /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA396291D96E000696F9C /* PhotoPicker.swift */; };
+		F68CA399291D9C0800696F9C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA398291D9C0800696F9C /* InfoView.swift */; };
+		F68CA39C291DA5A700696F9C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA39B291DA5A700696F9C /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F676BEF0292146230071D21F /* BreedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedData.swift; sourceTree = "<group>"; };
+		F676BEF2292151B50071D21F /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		F68CA372291D6BEA00696F9C /* DogBreedOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreedOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68CA375291D6BEA00696F9C /* DogBreedOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedOSApp.swift; sourceTree = "<group>"; };
-		F68CA377291D6BEA00696F9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F68CA377291D6BEA00696F9C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F68CA379291D6BEF00696F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68CA37C291D6BEF00696F9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F68CA387291D6EE500696F9C /* DogBreedClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DogBreedClassifier.mlmodel; sourceTree = "<group>"; };
+		F68CA38D291D765800696F9C /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		F68CA38F291D768500696F9C /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		F68CA396291D96E000696F9C /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		F68CA398291D9C0800696F9C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F68CA39B291DA5A700696F9C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				F68CA375291D6BEA00696F9C /* DogBreedOSApp.swift */,
-				F68CA377291D6BEA00696F9C /* ContentView.swift */,
+				F68CA384291D6E1200696F9C /* VIews */,
+				F68CA383291D6DF000696F9C /* Models */,
+				F68CA39A291DA59100696F9C /* ML */,
+				F68CA391291D923000696F9C /* Components */,
+				F68CA38B291D75C000696F9C /* Styles */,
 				F68CA379291D6BEF00696F9C /* Assets.xcassets */,
 				F68CA37B291D6BEF00696F9C /* Preview Content */,
 			);
@@ -65,6 +85,50 @@
 				F68CA37C291D6BEF00696F9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F68CA383291D6DF000696F9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA39B291DA5A700696F9C /* Manager.swift */,
+				F676BEF0292146230071D21F /* BreedData.swift */,
+				F676BEF2292151B50071D21F /* CustomErrors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F68CA384291D6E1200696F9C /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA377291D6BEA00696F9C /* WelcomeView.swift */,
+				F68CA398291D9C0800696F9C /* InfoView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		F68CA38B291D75C000696F9C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA38D291D765800696F9C /* Style.swift */,
+				F68CA38F291D768500696F9C /* Modifiers.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		F68CA391291D923000696F9C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA396291D96E000696F9C /* PhotoPicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F68CA39A291DA59100696F9C /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA387291D6EE500696F9C /* DogBreedClassifier.mlmodel */,
+			);
+			path = ML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68CA378291D6BEA00696F9C /* ContentView.swift in Sources */,
+				F68CA388291D6EE500696F9C /* DogBreedClassifier.mlmodel in Sources */,
+				F68CA378291D6BEA00696F9C /* WelcomeView.swift in Sources */,
+				F676BEF1292146230071D21F /* BreedData.swift in Sources */,
+				F68CA397291D96E000696F9C /* PhotoPicker.swift in Sources */,
+				F68CA39C291DA5A700696F9C /* Manager.swift in Sources */,
 				F68CA376291D6BEA00696F9C /* DogBreedOSApp.swift in Sources */,
+				F68CA38E291D765800696F9C /* Style.swift in Sources */,
+				F68CA390291D768500696F9C /* Modifiers.swift in Sources */,
+				F676BEF3292151B50071D21F /* CustomErrors.swift in Sources */,
+				F68CA399291D9C0800696F9C /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +342,8 @@
 				DEVELOPMENT_TEAM = YKD89M9QN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Allow access to select images";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to capture images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +373,8 @@
 				DEVELOPMENT_TEAM = YKD89M9QN9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Allow access to select images";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to capture images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
